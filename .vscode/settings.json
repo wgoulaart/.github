@@ -1,0 +1,90 @@
+{
+  "editor.fontFamily": "JetBrains Mono, Cascadia Code, Fira Code, Inconsolata, Consolas, 'Courier New',monospace",
+  "editor.detectIndentation": true,
+  "breadcrumbs.enabled": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.smoothScrolling": true,
+  "workbench.colorTheme": "Min Light",
+  "workbench.iconTheme": "material-icon-theme",
+  // Sizes Fonts
+  "editor.formatOnSave": true,
+  "editor.fontSize": 14,
+  "editor.fontLigatures": true,
+  "editor.wordWrapColumn": 100,
+  "editor.wordWrap": "bounded",
+  "editor.rulers": [80, 120],
+  "editor.wordBasedSuggestions": "off",
+  "editor.suggest.localityBonus": true,
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.renderWhitespace": "boundary",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.markdownlint": "explicit"
+  },
+  "editor.accessibilitySupport": "off",
+  "terminal.integrated.fontSize": 13,
+  // Formaters
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "[typescriptreact][typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "source.fixAll": "explicit",
+    "source.organizeImports": "explicit",
+    "source.sortMembers": "explicit"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "editor.suggestSelection": "first",
+  "editor.suggest.showKeywords": true,
+  "path-autocomplete.pathMappings": {
+    "~": "${folder}/src",
+    "@": "${folder}/src"
+  },
+  "workbench.sideBar.location": "right",
+  "git.autofetch": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescriptreact",
+    "vue",
+    "vue-html",
+    "html"
+  ],
+  "window.zoomLevel": 0.6,
+  "editor.fontSize": 15,
+  // "vsintellicode.modify.editor.suggestSelection": "choseToUpdateConfiguration",
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "prisma.showPrismaDataPlatformNotification": false,
+  "vue.server.hybridMode": "typeScriptPluginOnly"
+}
+
+// /// Settings
+// {
+//     "editor.codeActionsOnSave": {
+//       "source.fixAll": "explicit"
+//     },
+//     "editor.defaultFormatter": "esbenp.prettier-vscode",
+//     "editor.formatOnSave": true,
+//     "[vue]": {
+//       "editor.defaultFormatter": "esbenp.prettier-vscode"
+//     },
+//     "[javascript]": {
+//       "editor.defaultFormatter": "esbenp.prettier-vscode"
+//     },
+//     "[json]": {
+//       "editor.defaultFormatter": "vscode.json-language-features"
+//     },
+//     "[jsonc]": {
+//       "editor.defaultFormatter": "vscode.json-language-features"
+//     },
+//   }
+
+//Theme
+// [YoavBls.pretty-ts-errors, miguelsolorio.min-theme]
